@@ -7,6 +7,6 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: mysecretpassword
     volumes:
-      - database_data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
 volumes:
-  database_data:
+  mysql_data:
